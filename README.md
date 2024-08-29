@@ -1,3 +1,3 @@
 # stylesheets
 
-[giscus]({% ./giscus/noborder_light.css %})
+[giscus]({% link ./giscus/noborder_light.css %})
