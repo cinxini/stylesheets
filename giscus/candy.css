@@ -151,8 +151,13 @@ main .gsc-loading-image {
 }
 
 .gsc-comment-author .link-primary {
+    color: rgba(var(--primary-default), 0.85);
+}
+
+.gsc-comment-author .link-primary:hover {
     color: rgb(var(--primary-default));
 }
+
 
 .ClipboardButton svg.octicon.octicon-copy.js-clipboard-copy-icon:not(.color-text-success) {
     color: rgba(var(--secondary-default), 0.6);
