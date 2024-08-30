@@ -150,13 +150,16 @@ main .gsc-loading-image {
     color: rgb(var(--tertiary-darken-4));
 }
 
-.gsc-comment-author .link-primary {
+.gsc-comment-author .link-primary,
+.gsc-reply-author .link-primary {
     color: rgba(var(--primary-default), 0.85);
 }
 
-.gsc-comment-author .link-primary:hover {
+.gsc-comment-author .link-primary:hover,
+.gsc-reply-author .link-primary:hover {
     color: rgb(var(--primary-default));
 }
+
 
 
 .ClipboardButton svg.octicon.octicon-copy.js-clipboard-copy-icon:not(.color-text-success) {
