@@ -129,18 +129,22 @@ main .gsc-loading-image {
     background-color: rgba(var(--secondary-container-lighthen-1), 0.3);
 }
 
-.ClipboardButton svg.octicon:not(.color-text-success) {
+/* .ClipboardButton svg.octicon:not(.color-text-success) {
+    color: rgba(var(--secondary-default), 0.6);
+} */
+
+.ClipboardButton svg.octicon.octicon-copy.js-clipboard-copy-icon:not(.color-text-success) {
     color: rgba(var(--secondary-default), 0.6);
 }
 
 button.ClipboardButton.btn {
-    background-color: rgba(var(--secondary-container-lighthen-1), 0.6);
-    border-color: rgba(var(--secondary-container-lighthen-1), 0.7);
+    background-color: rgba(var(--secondary-container-lighthen-1), 0.8);
+    border-color: rgba(var(--secondary-container-lighthen-1), 1.0);
 }
 
 button.ClipboardButton.btn:hover {
     background-color: rgba(var(--secondary-container-lighthen-1), 0.5);
-    border-color: rgba(var(--secondary-container-lighthen-1), 0.7);
+    border-color: rgba(var(--secondary-container-lighthen-1), 1.0);
 }
 
 /* .ClipboardButton svg.octicon.color-text-success {
