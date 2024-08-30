@@ -15,8 +15,14 @@ main {
     --secondary-default: 242, 167, 187;
     --secondary-container-lighthen-1: 255, 241, 250;
     --tertiary-default: 161, 157, 202;
+    --tertiary-darken-2: 109, 106, 148;
+    --tertiary-darken-4: 60, 59, 97;
     --base-default: 177, 177, 177;
-    --bg-default: 246, 246, 247;
+    --bg-default: 247, 247, 247;
+    --color-canvas-default: rgb(255 255 255);
+    --color-canvas-overlay: rgb(255 255 255);
+    --color-canvas-inset: rgba(var(--bg-default), 0.8);
+    --color-canvas-subtle: rgba(var(--bg-default), 0.9);
     --color-fg-default: rgb(70 70 70);
     --color-fg-muted: rgb(70 70 70 / 75%);
     --color-fg-subtle: rgb(70 70 70 / 33%);
@@ -81,10 +87,10 @@ main {
     /*--color-fg-default: rgb(60 60 67);
     --color-fg-muted: rgb(60 60 67 / 75%);
     --color-fg-subtle: rgb(60 60 67 / 33%);*/
-    --color-canvas-default: rgb(255 255 255);
+    /* --color-canvas-default: rgb(255 255 255);
     --color-canvas-overlay: rgb(255 255 255);
     --color-canvas-inset: rgba(var(--bg-default), 0.85);
-    --color-canvas-subtle: rgba(var(--bg-default), 1);
+    --color-canvas-subtle: rgba(var(--bg-default), 1); */
     --color-border-default: rgba(var(--bg-default), 0.85);
     --color-border-muted: rgb(175 184 193 / 20%);
     --color-neutral-muted: rgb(175 184 193 / 20%);
@@ -129,13 +135,28 @@ main .gsc-loading-image {
     background-color: rgba(var(--secondary-container-lighthen-1), 0.3);
 }
 
-.gsc-comment div.color-bg-inset {
-    background-color: rgb(var(--base-default) / 80%);
+.gsc-comment .markdown.gsc-comment-content h1,
+.gsc-comment .markdown.gsc-comment-content h2 {
+    color: rgb(var(--tertiary-default));
+}
+
+.gsc-comment .markdown.gsc-comment-content h3 {
+    color: rgb(var(--tertiary-darken-2));
+}
+
+.gsc-comment .markdown.gsc-comment-content h4,
+.gsc-comment .markdown.gsc-comment-content h5,
+.gsc-comment .markdown.gsc-comment-content h6 {
+    color: rgb(var(--tertiary-darken-4));
+}
+
+/* .gsc-comment div.color-bg-inset {
+    background-color: rgb(var(--base-default) / 85%);
 }
 
 .gsc-comment div.color-bg-tertiary {
-    background-color: rgb(var(--base-default) / 90%);
-}
+    background-color: rgb(var(--base-default) / 85%);
+} */
 
 .ClipboardButton svg.octicon.octicon-copy.js-clipboard-copy-icon:not(.color-text-success) {
     color: rgba(var(--secondary-default), 0.6);
