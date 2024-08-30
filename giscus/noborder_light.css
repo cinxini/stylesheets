@@ -13,6 +13,7 @@ main {
     /*  main color  */
     --primary-default: 130, 192, 217;
     --secondary-default: 242, 167, 187;
+    --secondary-container-lighthen-1: 255, 241, 250;
     --tertiary-default: 161, 157, 202;
     --base-default: 177, 177, 177;
     --bg-default: 246, 246, 247;
@@ -125,5 +126,5 @@ main .gsc-loading-image {
 
 .gsc-comment .markdown .highlight pre,
 .gsc-comment .markdown pre {
-    background-color: rgba(var(--secondary-default), 0.4);
+    background-color: rgba(var(--secondary-container-lighthen-1), 0.3);
 }
