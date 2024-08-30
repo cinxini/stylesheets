@@ -150,6 +150,9 @@ main .gsc-loading-image {
     color: rgb(var(--tertiary-darken-4));
 }
 
+.gsc-comment-author .link-primary {
+    color: rgb(var(--primary-default));
+}
 
 .ClipboardButton svg.octicon.octicon-copy.js-clipboard-copy-icon:not(.color-text-success) {
     color: rgba(var(--secondary-default), 0.6);
