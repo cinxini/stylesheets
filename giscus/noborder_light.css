@@ -134,8 +134,13 @@ main .gsc-loading-image {
 }
 
 button.ClipboardButton.btn {
-    background-color: rgba(var(--secondary-container-lighthen-1), 0.4);
-    border-color: rgba(var(--secondary-container-lighthen-1), 0.5);
+    background-color: rgba(var(--secondary-container-lighthen-1), 0.6);
+    border-color: rgba(var(--secondary-container-lighthen-1), 0.7);
+}
+
+button.ClipboardButton.btn:hover {
+    background-color: rgba(var(--secondary-container-lighthen-1), 0.5);
+    border-color: rgba(var(--secondary-container-lighthen-1), 0.7);
 }
 
 /* .ClipboardButton svg.octicon.color-text-success {
