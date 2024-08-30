@@ -1,5 +1,5 @@
 main {
-    --primary-default: 255, 0, 0;
+    --primary-default: 255, 87, 51;
     --bg-default: 246, 246, 247;
     --color-prettylights-syntax-comment: #6e7781;
     --color-prettylights-syntax-constant: #0550ae;
@@ -97,4 +97,8 @@ main .gsc-loading-image {
 
 .gsc-comment:not(.gsc-reply-box) .gsc-replies {
     border-radius: unset;
+}
+
+.gsc-comment .color-box-border-info {
+    border-color: transparent;
 }
