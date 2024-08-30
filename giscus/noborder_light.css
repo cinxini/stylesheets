@@ -121,7 +121,7 @@ main .gsc-loading-image {
 }
 
 .gsc-comment .color-box-border-info {
-    border-color: rgba(var(--base-default), 0.2);
+    border-color: rgba(var(--base-default), 0.16);
 }
 
 .gsc-comment .markdown .highlight pre,
@@ -129,9 +129,13 @@ main .gsc-loading-image {
     background-color: rgba(var(--secondary-container-lighthen-1), 0.3);
 }
 
-/* .ClipboardButton svg.octicon:not(.color-text-success) {
-    color: rgba(var(--secondary-default), 0.6);
-} */
+.gsc-comment div.color-bg-inset {
+    background-color: rgb(var(--base-default) / 80%);
+}
+
+.gsc-comment div.color-bg-tertiary {
+    background-color: rgb(var(--base-default) / 90%);
+}
 
 .ClipboardButton svg.octicon.octicon-copy.js-clipboard-copy-icon:not(.color-text-success) {
     color: rgba(var(--secondary-default), 0.6);
