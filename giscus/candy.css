@@ -21,7 +21,7 @@ main {
     --bg-default: 247, 247, 247;
     --color-canvas-default: rgb(255 255 255);
     --color-canvas-overlay: rgb(255 255 255);
-    --color-canvas-inset: rgba(var(--bg-default), 0.6);
+    --color-canvas-inset: rgba(var(--bg-default), 0.5);
     --color-canvas-subtle: rgba(var(--bg-default), 0.75);
     --color-fg-default: rgb(70 70 70);
     --color-fg-muted: rgb(70 70 70 / 75%);
@@ -159,8 +159,6 @@ main .gsc-loading-image {
 .gsc-reply-author .link-primary:hover {
     color: rgb(var(--primary-default));
 }
-
-
 
 .ClipboardButton svg.octicon.octicon-copy.js-clipboard-copy-icon:not(.color-text-success) {
     color: rgba(var(--secondary-default), 0.6);
