@@ -128,3 +128,16 @@ main .gsc-loading-image {
 .gsc-comment .markdown pre {
     background-color: rgba(var(--secondary-container-lighthen-1), 0.3);
 }
+
+.ClipboardButton svg.octicon:not(.color-text-success) {
+    color: rgba(var(--secondary-default), 0.6);
+}
+
+button.ClipboardButton.btn {
+    background-color: rgba(var(--secondary-container-lighthen-1), 0.4);
+    border-color: rgba(var(--secondary-container-lighthen-1), 0.5);
+}
+
+/* .ClipboardButton svg.octicon.color-text-success {
+    color: rgba(var(--secondary-default), 0.6);
+} */
