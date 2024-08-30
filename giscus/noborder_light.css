@@ -5,8 +5,11 @@ main {
     --tertiary-default: 161, 157, 202;
     --base-default: 177, 177, 177;
     --bg-default: 246, 246, 247;
+    --color-fg-default: rgb(70 70 70);
+    --color-fg-muted: rgb(70 70 70 / 75%);
+    --color-fg-subtle: rgb(70 70 70 / 33%);
 
-    /*  variant colors  */
+    /*  same colors as in noborder_light  */
     --color-prettylights-syntax-comment: #6e7781;
     --color-prettylights-syntax-constant: #0550ae;
     --color-prettylights-syntax-entity: #8250df;
@@ -63,9 +66,9 @@ main {
     --color-segmented-control-bg: #eaeef2;
     --color-segmented-control-button-bg: #fff;
     --color-segmented-control-button-selected-border: rgba(var(--bg-default), 0.85);
-    --color-fg-default: rgb(60 60 67);
+    /*--color-fg-default: rgb(60 60 67);
     --color-fg-muted: rgb(60 60 67 / 75%);
-    --color-fg-subtle: rgb(60 60 67 / 33%);
+    --color-fg-subtle: rgb(60 60 67 / 33%);*/
     --color-canvas-default: rgb(255 255 255);
     --color-canvas-overlay: rgb(255 255 255);
     --color-canvas-inset: rgba(var(--bg-default), 0.85);
@@ -106,6 +109,10 @@ main .gsc-loading-image {
 }
 
 /* customize  */
+head, main, body {
+    font-family: "Poppins", sans-serif;
+}
+
 .gsc-comment .color-box-border-info {
-    border-color: rgba(var(--base-default), 0.4);
+    border-color: rgba(var(--base-default), 0.2);
 }
